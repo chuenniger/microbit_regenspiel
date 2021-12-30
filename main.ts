@@ -6,6 +6,7 @@ input.onButtonPressed(Button.B, function () {
 })
 let drop: game.LedSprite = null
 let balken: game.LedSprite = null
+basic.showIcon(IconNames.Heart)
 balken = game.createSprite(2, 4)
 basic.forever(function () {
     drop = game.createSprite(randint(0, 4), 0)
